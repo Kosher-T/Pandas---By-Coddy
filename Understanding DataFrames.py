@@ -1,7 +1,10 @@
 import pandas as pd
+
+
 def information(action):
     # Write code here
     df = pd.read_csv("brands.csv")
+
     if action == 'head':
         print(df.head())
     if action == 'tail':
