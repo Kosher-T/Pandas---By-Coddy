@@ -1,4 +1,6 @@
 # pandas as pd is already imported
+
+
 df = pd.read_csv("./stats.csv")
 # Write your code below
 
